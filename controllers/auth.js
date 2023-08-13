@@ -44,7 +44,7 @@ const resetPassword = async (req, res = response) => {
         html: `
           <p>Has solicitado restablecer tu contraseña.</p>
           <p>Por favor, haz clic en el siguiente enlace para continuar:</p>
-          <a href="http://localhost:50257/#/auth/ressetPasswordP/?token=${token}">Restablecer Contraseña</a>
+          <a href="https://veterinaria-perros-mas-felices.firebaseapp.com/#/auth/ressetPasswordP/?token=${token}">Restablecer Contraseña</a>
         `,
       };
       
